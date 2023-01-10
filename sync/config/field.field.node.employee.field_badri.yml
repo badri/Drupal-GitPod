@@ -1,0 +1,19 @@
+uuid: feaacf8e-a98c-40bc-ad76-06b26bf10a3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_badri
+    - node.type.employee
+id: node.employee.field_badri
+field_name: field_badri
+entity_type: node
+bundle: employee
+label: Badri
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

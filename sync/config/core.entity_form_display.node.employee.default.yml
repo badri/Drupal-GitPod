@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.employee.body
+    - field.field.node.employee.field_badri
     - field.field.node.employee.field_email
     - node.type.employee
   module:
@@ -36,6 +37,14 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_badri:
+    type: string_textfield
+    weight: 123
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_email:
     type: email_default

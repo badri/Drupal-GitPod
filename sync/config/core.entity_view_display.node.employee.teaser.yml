@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.employee.body
+    - field.field.node.employee.field_badri
     - field.field.node.employee.field_email
     - node.type.employee
   module:
@@ -29,4 +30,5 @@ content:
     weight: 100
     region: content
 hidden:
+  field_badri: true
   field_email: true
